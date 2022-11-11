@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://images8.alphacoders.com/805/805636.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+p#principal {
+    color: white;
+    font-size: x-large;
+}
+
+center#principal {
+    color: #d6b362;
+    font-size: xx-large;
+}
+
+a#campeos {
+    text-decoration: none;
+    color: #52336f;
+}
+
+a#principal {
+    text-decoration: none;
+    color: #d6b362;
+    font-size: large;
+}
+h1#principal{
+    text-align: center;
+    color: #d6b362;
+     font-size: xx-large;
+}
+td{
+    text-align: center;
+
+} div#center{
+    text-align: center;
+}
