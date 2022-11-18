@@ -1,13 +1,14 @@
 body {
-    background-image: url("https://images8.alphacoders.com/805/805636.jpg");
+    background-image: linear-gradient( 76.3deg,  rgb(59, 98, 131) 12.6%, rgb(132, 136, 139) 82.8% );
     background-repeat: no-repeat;
     background-size: auto;
     margin-top: 8%;
-    
-
-
+    height: 100vh;
 }
 
+a{
+    text-decoration:none
+}
 p#principal {
     color: white;
     font-size: x-large;
@@ -20,7 +21,7 @@ center#principal {
 
 a#campeos {
     text-decoration: none;
-    color: #52336f;
+    color: #d6b362;
 }
 
 a#principal {
@@ -32,7 +33,9 @@ a#principal {
 ul {
     list-style: none;
 }
-
+h1{
+    color: #d6b362;
+}
 h1#principal {
     text-align: center;
     color: #d6b362;
@@ -45,6 +48,7 @@ td {
 }
 
 div#center {
+    
     text-align: center;
 }
 
@@ -57,7 +61,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: rgb(68, 68, 68);
+    background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
     z-index: 2;
 
 }
@@ -87,7 +91,8 @@ ul li a {
 .imgCampeos {
     width: 400px;
 }
-.container{
+
+.container {
     /* padding: 0;
     margin: 0;
     list-style:none;
@@ -96,19 +101,29 @@ ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
-.item{
+
+.item {
     /* justify-content: space-around; */
     /* flex-basis: 250px;  */
 
     width: 315px;
-    height:315px;
+    height: 315px;
     margin-right: 10%;
     margin-bottom: 3%;
 }
-.break{
+
+.break {
     flex-basis: 100%;
     height: 0;
 
+}
+
+img {
+    width: 400;
+}
+
+img#skill {
+    width: 70;
 }
